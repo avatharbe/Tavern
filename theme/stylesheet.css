@@ -1,0 +1,60 @@
+/*  phpBB3 Style Sheet
+    --------------------------------------------------------------
+    Style name:     Hellfire
+    Based on style: prosilver
+    Inspired by:    ThorLargeX + WoW Hellfire Peninsula
+    Description:    Scorched bronze/orange theme
+    --------------------------------------------------------------
+*/
+
+@import url("normalize.css");
+@import url("base.css");
+@import url("utilities.css");
+@import url("common.css");
+@import url("links.css");
+@import url("content.css");
+@import url("buttons.css");
+@import url("cp.css");
+@import url("forms.css");
+@import url("icons.css");
+@import url("colours.css");
+@import url("responsive.css");
+
+/* ==========================================================================
+   Font & typography overrides
+   ========================================================================== */
+
+body {
+	font-family: "Open Sans", "Droid Sans", Verdana, Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+	font-size: 2.2em;
+}
+
+h2 {
+	font-size: 1.8em;
+}
+
+h3 {
+	font-size: 1.15em;
+}
+
+p {
+	font-size: 1em;
+	line-height: 1.5em;
+}
+
+/* ==========================================================================
+   Responsive overrides
+   ========================================================================== */
+
+@media only screen and (max-width: 920px), only screen and (max-device-width: 920px) {
+	.header-subsilver {
+		background-size: cover;
+		min-height: 80px;
+	}
+}
