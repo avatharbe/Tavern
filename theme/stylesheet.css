@@ -1,24 +1,29 @@
-/*  phpBB3 Style Sheet
+/*  phpBB Style Sheet
     --------------------------------------------------------------
     Style name:     Tavern
     Based on style: prosilver
     Inspired by:    ThorLargeX + WoW Hellfire Peninsula
-    Description:    Scorched bronze/orange theme
+    Description:    Scorched bronze/orange theme for phpBB4
     --------------------------------------------------------------
 */
 
-@import url("normalize.css");
-@import url("base.css");
-@import url("utilities.css");
-@import url("common.css");
-@import url("links.css");
-@import url("content.css");
-@import url("buttons.css");
-@import url("cp.css");
-@import url("forms.css");
-@import url("icons.css");
+/* Import prosilver base styles */
+@import url("../../prosilver/theme/normalize.css");
+@import url("../../prosilver/theme/base.css");
+@import url("../../prosilver/theme/utilities.css");
+@import url("../../prosilver/theme/icons.css");
+@import url("../../prosilver/theme/common.css");
+@import url("../../prosilver/theme/buttons.css");
+@import url("../../prosilver/theme/links.css");
+@import url("../../prosilver/theme/mentions.css");
+@import url("../../prosilver/theme/content.css");
+@import url("../../prosilver/theme/cp.css");
+@import url("../../prosilver/theme/forms.css");
+@import url("../../prosilver/theme/responsive.css");
+@import url("../../prosilver/theme/bidi.css");
+
+/* Tavern colour overrides (replaces prosilver colours.css) */
 @import url("colours.css");
-@import url("responsive.css");
 
 /* ==========================================================================
    Font & typography overrides
@@ -46,6 +51,38 @@ h3 {
 p {
 	font-size: 1em;
 	line-height: 1.5em;
+}
+
+/* ==========================================================================
+   Tavern header
+   ========================================================================== */
+
+.header-subsilver {
+	background-color: #1a0d06;
+	background-image: url("./images/header.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	border-bottom: 2px solid #8b3a0e;
+	min-height: 120px;
+}
+
+/* ==========================================================================
+   Navbar overrides — semi-transparent over header image
+   ========================================================================== */
+
+.headerbar .navbar {
+	background: rgba(10, 5, 2, 0.7);
+	border-bottom: 1px solid rgba(139, 58, 14, 0.5);
+	border-radius: 0;
+}
+
+.headerbar .navbar a {
+	color: #feedc1;
+}
+
+.headerbar .navbar .dropdown a {
+	color: #d4c4a0;
 }
 
 /* ==========================================================================

@@ -1,0 +1,18 @@
+{
+    "name": "avathar/phpbb-style-tavern",
+    "description": "Tavern - scorched bronze/orange theme for phpBB",
+    "type": "phpbb-style",
+    "version": "2.0.0",
+    "license": "GPL-2.0-only",
+    "authors": [
+        {
+            "name": "Avathar",
+            "homepage": "https://github.com/avatharbe"
+        }
+    ],
+    "extra": {
+        "display-name": "Tavern",
+        "phpbb-version": "4.0.0-a1",
+        "parent-style": "prosilver"
+    }
+}
