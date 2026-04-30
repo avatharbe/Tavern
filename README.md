@@ -1,4 +1,4 @@
-## Tavern 1.0 Style for phpBB 3.3.16
+## Tavern Style for phpBB 3.3.16
 
 Author @avathar
 
