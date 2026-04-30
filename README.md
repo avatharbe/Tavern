@@ -10,7 +10,7 @@ Author @avathar
 
 ## Changes
 1.0.1 (30-04-2026)
-- bumped phpBB compat to 3.3.16
+- updated phpBB compat to 3.3.16
 - fixed-width layout matching prosilver (1152px)
 - slightly smaller topic title in viewforum
 
