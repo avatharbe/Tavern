@@ -186,7 +186,7 @@ dd.posts, dd.topics, dd.views, dd.extra, dd.mark {
 	width: 80px;
 	text-align: center;
 	line-height: 2.2em;
-	font-size: 1.2em;
+	font-size: 1.05em;
 }
 
 dd.posts, dd.topics, dd.views {
@@ -207,7 +207,7 @@ dl.row-item dt li {
 
 dd.lastpost, dd.redirect, dd.moderation, dd.time, dd.info {
 	width: 250px;
-	font-size: 1.1em;
+	font-size: 0.95em;
 }
 
 dd.redirect {
@@ -250,13 +250,13 @@ dd.option {
 
 .postbody h3.first {
 	/* The first post on the page uses this */
-	font-size: 1.7em;
+	font-size: 1.5em;
 }
 
 .postbody h3 {
 	/* Postbody requires a different h3 format - so change it here */
 	float: left;
-	font-size: 1.5em;
+	font-size: 1.3em;
 	padding: 2px 0 0 0;
 	margin-top: 0 !important;
 	margin-bottom: 0.3em !important;
@@ -277,7 +277,7 @@ dd.option {
 }
 
 .postbody .content {
-	font-size: 1.3em;
+	font-size: 1.15em;
 	overflow-x: auto;
 }
 
@@ -357,14 +357,14 @@ dd.option {
 }
 
 .panel p {
-	font-size: 1.2em;
+	font-size: 1.05em;
 	margin-bottom: 1em;
 	line-height: 1.4em;
 }
 
 .content p {
 	font-family: "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, Arial, sans-serif;
-	font-size: 1.2em;
+	font-size: 1.05em;
 	margin-bottom: 1em;
 	line-height: 1.4em;
 }
@@ -423,7 +423,7 @@ p.author {
 .signature {
 	margin-top: 1.5em;
 	padding-top: 0.2em;
-	font-size: 1.1em;
+	font-size: 0.9em;
 	border-top: 1px solid transparent;
 	clear: left;
 	line-height: 140%;

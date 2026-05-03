@@ -9,7 +9,11 @@ Author @avathar
 - https://www.avathar.be/forum/viewforum.php?f=102
 
 ## Changes
-1.0.1 (30-04-2026)
+1.0.1 (03-05-2026)
+- reduced forum and topic title font sizes on forum index and viewforum
+- reduced count column font sizes (Topics, Posts, Views) and Last Post column
+- reduced post subject and post body font sizes on viewtopic
+- reduced signature font size (previously larger than body text)
 - updated phpBB compat to 3.3.16
 - fixed-width layout matching prosilver (1152px)
 - slightly smaller topic title in viewforum
