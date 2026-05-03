@@ -62,6 +62,15 @@ ul.topiclist.two-columns dt .list-inner {
 	margin-right: 80px;
 }
 
+/* Forum index: shrink description/moderator/subforum subtext so the forum name reads as the dominant element */
+ul.topiclist.forums dt .list-inner {
+	font-size: 0.85em;
+}
+
+ul.topiclist.forums a.forumtitle {
+	font-size: 1.25em;
+}
+
 ul.topiclist dd {
 	border-left: 1px solid transparent;
 	padding: 4px 0;
